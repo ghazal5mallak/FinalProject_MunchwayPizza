@@ -1,0 +1,9 @@
+{
+
+    "DB_USER_CREDENTIALS": {
+        "USERNAME": "root",
+        "PASSWORD": "",
+        "HOST": "localhost",
+        "DBNAME": "Munchwaypizza"
+    }
+}

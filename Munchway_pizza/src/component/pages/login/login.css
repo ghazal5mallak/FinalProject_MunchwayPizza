@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+[23:50, 5.4.2021] Randa Dagash: input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+textarea{
+  height:80px;
+  border-radius: 10px;
+  border-color: black;
+}
+.container {
+border-radius: 5px;
+margin-bottom:20px;
+width: %;
+text-align: right;
+}
+
+.form-control{
+width: 100%;
+}
+.intro {
+font-size: 150%;
+color: red;
+}
+
+
+h2{
+font-size: 50px;
+text-align: center;
+text-decoration: underline;
+font-family: 'Secular One', sans-serif;
+text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+h8{
+  font-size: 40px;
+  text-align: center;
+  color: white; 
+  font-family: 'Bellefair', serif; 
+}
+
+
+.labeltitle{
+  direction: rtl;
+}
+
+.login{
+  text-align: right;
+
+}

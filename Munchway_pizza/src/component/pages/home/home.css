@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+footer{
+  opacity: 0.7;
+  background-color: #333333;
+}
+
+h1{
+  font-size: 100px;
+  font-family: 'Suez One', serif;
+  /* font-family: 'Rock Salt', cursive; */
+  text-align: center;
+  /* color: black; */
+  /* text-shadow: 4px 4px 4px white; */
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+
+.limg{
+width: 120px;
+height: 90px;
+}

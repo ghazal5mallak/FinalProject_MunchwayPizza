@@ -1,0 +1,51 @@
+[
+    {
+      "title": "דף הבית",
+      "url": "/",
+      "cName": "nav-links",
+      "icon": "fa fa-home"
+    },
+    {
+      "title": "הרשמה",
+      "url": "/Sighnup",
+      "cName": "nav-links",
+      "icon": "fa fa-sign-in"
+    },
+    {
+      "title": "התחברות",
+      "url": "/Login",
+      "cName": "nav-links",
+      "icon": "fa fa-unlock"
+    },
+    {
+      "title": "תפריט",
+      "url": "/Tafrit",
+      "cName": "nav-links",
+      "icon": "fa fa-pie-chart"
+    },
+    {
+      "title": "גלריה",
+      "url": "/Tmonot",
+      "cName": "nav-links",
+      "icon": "fa fa-picture-o"
+    },
+    {
+      "title": "כתבו עלינו",
+      "url": "/Feedback",
+      "cName": "nav-links",
+      "icon": "fa fa-paper-plane-o"
+    },
+    {
+      "title": "הזמנה דרך האתר",
+      "url": "/Order",
+      "cName": "nav-links",
+      "icon": "fa fa-comments-o"
+    },
+    {
+      "title": "היסטוריה",
+      "url": "#",
+      "cName": "nav-links",
+      "icon": "fa fa-shopping-basket"
+    }
+  ]
+  

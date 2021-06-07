@@ -1,0 +1,51 @@
+#tmonot .container {
+  width: 100%;
+  max-width: 300px;
+  justify-content: center;
+  text-align: center;
+}
+
+#tmonot .image {
+  display: block;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+}
+
+#tmonot .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#tmonot .container:hover .overlay {
+  opacity: 1;
+}
+
+#tmonot .photo-list {
+    width: 90%;
+    list-style: none;
+    justify-content: center;
+}
+
+#tmonot .photo-item {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+#tmonot .photo-item img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

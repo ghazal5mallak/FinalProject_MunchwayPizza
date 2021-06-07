@@ -1,0 +1,119 @@
+#navbar1 .NavbarItem {
+ height: 50px;
+ display:flex;
+ font-size: 1rem;
+ justify-content: center;
+ text-align: center;
+ color: black;
+}
+
+#navbar1 .nav-menu{
+ display:flex;
+ grid-template-columns: repeat(5, auto;);
+ grid-gap: 10px;
+ list-style: none;
+ width: 70vw;
+ justify-content: end;
+ margin-right: 2rem;
+ justify-content: center;
+ text-align: center;
+ color: black;
+ }
+
+ #navbar1 .nav-links {
+ color: black;
+ text-decoration: none;
+ padding: 0.5rem 1rem;
+ justify-content: center;
+ text-align: center;
+ font-size: 20px;
+}
+
+#navbar1 .nav-links:hover{
+ border-radius: 4px;
+ transition: all 0.2s ease-out;
+ background: #333333;
+ color: white;
+}
+
+#navbar1 .nav-links-mobile{
+ display: none;
+ color: white;
+}
+
+#navbar1 .menu-icon{
+ display: none;
+ color: white;
+}
+
+#navbar1 @media screen and (max-width:960px){
+
+     #navbar1 .NavbarItem{
+     position: relative;
+     color: white;
+   }
+   #navbar1 .nav-menu{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 500px;
+     position: absolute;
+     top: 80px;
+     left: -100%;
+     opacity: 1;
+     transition: all 0.5s ease;
+   }
+   #navbar1 .nav-menu.active{
+     left: 0;
+     opacity: 1;
+     transition: all 0.5s ease;
+     z-index: 1;
+   }
+   #navbar1 .nav-links{
+   text-align: center;
+     padding: 2rem;
+     width: 100%;
+     display: table;
+     box-shadow: none;
+   }
+   #navbar1 .nav-links:hover{
+     border-radius: 0;
+     background: #333333;
+     box-shadow: none;
+   }
+   #navbar1 .navbar-logo{
+     position: absolute;
+     top: 0;
+     left: 0;
+     transform: translate(25%, 50%);
+   }
+   #navbar1 .menu-icon{
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 0;
+     transform: translate(-100%, 60%);
+     font-size: 1.8rem;
+     cursor: pointer;
+   }
+   #navbar1 .nav-links-mobile{
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #333333;
+    text-decoration:none;
+    color:#fff;
+    font-size: 1.5rem;
+ }
+ #navbar1 .nav-links-mobile:hover{
+   background: #fff;
+   color: #333333;
+   transition: 250ms;
+ }
+ #navbar1 Button{
+   display: none;
+ }
+ }

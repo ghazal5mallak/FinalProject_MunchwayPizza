@@ -1,0 +1,27 @@
+[
+  {
+    "url": "#",
+    "cName": "nav-links",
+    "icon": "fa fa-whatsapp"
+  },
+  {
+    "url": "https://www.facebook.com/MunchwayPizza/",
+    "cName": "nav-links",
+    "icon": "fa fa-facebook-square"
+  },
+  {
+    "url": "#",
+    "cName": "nav-links",
+    "icon": "fa fa-phone-square"
+  },
+  {
+    "url": "https://www.instagram.com/munchwaypizza/",
+    "cName": "nav-links",
+    "icon": "fa fa-instagram"
+  },
+  {
+    "url": "https://www.google.com/maps/dir//32.71702,35.06561/@32.7132048,35.0665977,21z",
+    "cName": "nav-links",
+    "icon": "fa fa-map-pin"
+  }
+]
