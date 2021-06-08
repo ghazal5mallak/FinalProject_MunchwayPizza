@@ -19,7 +19,7 @@ class Formlogin extends React.Component{
           name = {item.name}
          />)
     return (
-      <form action="#" className="mt-5 col-5 mx-auto p-5">
+      <form action="#" className="mt-4 col-5 mx-auto p-5">
         <h8>כדי להתחבר לאתר נא למלא את הפרטים</h8>
         {formComponents}
         <div class="form-group justify-content-left">

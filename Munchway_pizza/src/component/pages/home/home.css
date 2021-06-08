@@ -21,3 +21,11 @@ h1{
 width: 120px;
 height: 90px;
 }
+
+.limgage{
+  width: 190px;
+  height: 250px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}

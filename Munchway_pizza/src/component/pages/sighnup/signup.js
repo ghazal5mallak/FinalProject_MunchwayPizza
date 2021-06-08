@@ -31,7 +31,14 @@ class Signup extends React.Component {
       <div className=" form1 pb-5">
        <Contentsignup data={this.state.data.Content}/>
        </div>
+       <div className=" container-fluid">
        <Footer data={this.state.data.Footer}/>
+       </div>
+       <div className="limgage container-fluid row ">
+       <div className="limgage">
+       <a href="/Order"><img className="limgage col-1.5 justify-content-right" src="../../image/shfik.png"/></a>
+       </div>
+      </div>
       </div>
   )}
 }

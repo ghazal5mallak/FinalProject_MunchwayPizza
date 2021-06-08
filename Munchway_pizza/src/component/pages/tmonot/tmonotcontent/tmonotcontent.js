@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Masony from "react-masonry-component";
 import './tmonotcontent.css';
 

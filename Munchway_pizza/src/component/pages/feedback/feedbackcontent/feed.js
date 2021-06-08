@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {Comment} from 'react-bootstrap';
 import './feed.css';
 
 class Feed extends React.Component{
