@@ -8,6 +8,7 @@
 
 .vjs-poster{
   border-radius: 10px;
+  background-size: cover;
 }
 
 .video-js .vjs-big-play-button{

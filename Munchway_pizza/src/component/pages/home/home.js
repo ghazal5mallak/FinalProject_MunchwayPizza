@@ -32,7 +32,9 @@ componentDidMount() {
        <div className="text-success mt-4 mb-4">
        <h1>Munchway Pizza</h1>
        </div>
+       <div className="pb-5">
        <VideoJS/>
+       </div>
        </div>
        <Footer data={this.state.data.Footer}/>
       </div>

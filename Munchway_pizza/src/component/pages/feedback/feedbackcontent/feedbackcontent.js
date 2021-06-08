@@ -5,7 +5,7 @@ import Feed from '../feedbackcontent/feed.js';
 class Feedbackcontent extends React.Component{
   render(){
     return(
-      <div>
+      <div className="pb-5">
        <Feed />
       </div>
   )}

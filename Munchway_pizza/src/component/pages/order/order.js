@@ -29,7 +29,9 @@ componentDidMount() {
       <div className="mt-4 mb-4">
       <div className= "text-success container">
       <h2>הזמנה דרך האתר</h2>
-        <Ordercontent data={this.state.data.Content}/>
+      <div className="pb-5">
+      <Ordercontent data={this.state.data.Content}/>
+      </div>
         </div>
         </div>
       <Footer data={this.state.data.Footer}/>

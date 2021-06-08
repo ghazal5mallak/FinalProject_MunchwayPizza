@@ -27,8 +27,9 @@ class Login extends React.Component{
        </div>
        </div>
       <Navbar data={this.state.data.Header}/>
-      
-       <Contentlogin data={this.state.data.Content}/>
+      <div className="pb-5">
+      <Contentlogin data={this.state.data.Content}/>
+      </div>
        <Footer data={this.state.data.Footer}/>
       </div>
   )}
