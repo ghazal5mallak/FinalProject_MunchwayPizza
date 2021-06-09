@@ -283,15 +283,15 @@ class Ordercontent extends React.Component {
 
 
   updatePizzaType(type) {
-    if (type === 0) {
+    if (type === '0') {
       this.state.pizza.type = 'רגילה';
-    } else if (type === 1) {
+    } else if (type === '1') {
       this.state.pizza.type = 'טבעונית';
-    } else if (type === 2) {
+    } else if (type === '2') {
       this.state.pizza.type = 'שחיתות';
-    } else if (type === 3) {
+    } else if (type === '3') {
       this.state.pizza.type = 'בצק כוסמין';
-    }else if (type === 4) {
+    }else if (type === '4') {
       this.state.pizza.type = 'בצק ללא גלוטן';
     }
     this.updateSizeOptionsArray();
