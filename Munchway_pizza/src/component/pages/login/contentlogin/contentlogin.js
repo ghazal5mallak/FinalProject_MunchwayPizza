@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Formlogin from './formlogin/formlogin.js';
 
 class Contentlogin extends React.Component{

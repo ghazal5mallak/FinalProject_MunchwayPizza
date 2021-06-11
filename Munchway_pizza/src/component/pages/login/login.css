@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
-[23:50, 5.4.2021] Randa Dagash: input[type=text], select, textarea {
+/* [23:50, 5.4.2021] Ghazal Mallak: input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -8,7 +8,7 @@
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-}
+} */
 
 input[type=submit] {
   background-color: #4CAF50;
@@ -38,6 +38,7 @@ text-align: right;
 .form-control{
 width: 100%;
 }
+
 .intro {
 font-size: 150%;
 color: red;
@@ -50,6 +51,7 @@ text-align: center;
 text-decoration: underline;
 font-family: 'Secular One', sans-serif;
 text-shadow: 2px 2px 3px rgb(255, 255, 255);
+letter-spacing: 2px;
 }
 
 h8{
@@ -66,5 +68,36 @@ h8{
 
 .login{
   text-align: right;
-
 }
+
+.login-form-check{
+  position: absolute;
+  padding-top: 10px;
+  }
+  
+  .login-check-label {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    color: white;
+    font-family: 'Bellefair', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .login-check-input {
+    position: absolute;
+    right: 0;
+  }
+  
+  .form-login-error {
+    margin-top: 60px;
+    color: red;
+  }
+
+  b{
+    color:white;
+    font-family: 'Bellefair', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }

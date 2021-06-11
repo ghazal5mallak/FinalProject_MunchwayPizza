@@ -27,7 +27,7 @@ componentDidMount() {
        </div>
        </div>
       <Navbar  data={this.state.data.Header}/>
-      <div className= " text-success container mt-4">
+      <div className= " text-success container pb-5 pt-5">
       <h2> תפריט </h2>
       <div className="container-fluid row justify-content-center mt-5 pb-5">
       <img className="image-tafrit"src={"../../image/43.jpeg"} />

@@ -1,5 +1,4 @@
 .orderButton{
-  /* text-color: white; */
   padding: 0.5rem 1rem;
   justify-content: center;
   text-align: center;
@@ -13,7 +12,7 @@
   grid-template-columns: repeat(5, auto;);
   text-decoration: none;
   transition: all 0.2s ease-out;
-  
+  font-family: 'Bellefair', serif;
 }
 
 h5{
@@ -36,4 +35,11 @@ font-size: 30px;
 text-align: center;
 color: #ffffff;
 font-family: 'Bellefair', serif;
+}
+
+.btn-success{
+  width:80px;
+  height:60px;
+  font-size: 20px;
+  text-align:center;
 }

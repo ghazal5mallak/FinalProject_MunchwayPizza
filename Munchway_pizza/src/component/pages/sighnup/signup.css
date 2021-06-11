@@ -1,4 +1,4 @@
-[23:50, 5.4.2021] Randa Dagash: input[type=text], select, textarea {
+/* [23:50, 5.4.2021] Ghazal Mallak: input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -10,7 +10,7 @@
   float: right;
   text-align: right;
   background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 input[type=submit] {
   background-color: rgba(0, 0, 0, 0.7);
@@ -48,8 +48,6 @@ font-size: 150%;
 color: red;
 }
 
-
-
 .labeltitle{
   direction: rtl;
   float: right;
@@ -67,5 +65,7 @@ background: rgba(0, 0, 0, 0.2);
 
 b{
   color:white;
-  
+  font-family: 'Bellefair', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
 }

@@ -21,7 +21,7 @@ class Formsignup extends React.Component{
          />)
     return (
       <form action="#" className="mt-4 col-5 mx-auto p-5">
-        <h8>כדי להירשם לאתר נא למלא את הפרטים</h8>
+        <h8> להרשמה מלא את הפרטים </h8>
         {formComponents}
         <div class="form-group">
           <button  type="submit" id="submit" class="mb-2 btn btn-success float-left">שלח</button>

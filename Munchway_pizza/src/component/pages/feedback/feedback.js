@@ -27,7 +27,7 @@ componentDidMount() {
        </div>
        </div>
       <Navbar data={this.state.data.Header}/>
-      <div className="text-success container mt-4">
+      <div className="text-success container pb-5 pt-5">
       <h2> כתבו עלינו </h2>
       <Feedbackcontent/>
       </div>
