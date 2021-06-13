@@ -47,10 +47,11 @@ class Formlogin extends React.Component{
           inputcName = {item.inputcName}
           placeholder = {item.placeholder}
           name = {item.name}
+          handleInputChange = {this.handleInputChange}
          />)
          const err = this.state.displayMessage !== null ? (<div className="form-login-error">{this.state.displayMessage}</div>) : (<div></div>)
     return (
-      <form action="#" className="mt-4 col-5 mx-auto p-5">
+      <div>
         <h8> להתחברות מלא את הפרטים </h8>
         {formComponents}
         <div className="form-group form-check login-form-check">
@@ -63,7 +64,7 @@ class Formlogin extends React.Component{
           <button onClick={() => this.login()} className="mb-5 btn btn-success justify-content-left float-left">שלח</button>
        </div>
         { err}
-      </form>
+        </div>
     );
   }
 }

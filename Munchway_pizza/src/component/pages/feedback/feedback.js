@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "../../part/header/navbar/navbar";
 import Infoline from "../../part/header/infoline/infoline";
 import Footer from "../../part/footer/footer";
-import Feedbackcontent from './feedbackcontent/feedbackcontent.js';
+import Content from './feedbackcontent/feedbackcontent.js';
 
 
 class Feedback extends React.Component{
@@ -29,7 +29,7 @@ componentDidMount() {
       <Navbar data={this.state.data.Header}/>
       <div className="text-success container pb-5 pt-5">
       <h2> כתבו עלינו </h2>
-      <Feedbackcontent/>
+      <Content data={this.state.data.Content} picture_url={this.state.data.picture_url}/>
       </div>
       <div className=" container-fluid">
        <Footer data={this.state.data.Footer}/>

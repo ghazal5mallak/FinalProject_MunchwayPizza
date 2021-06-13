@@ -15,6 +15,7 @@ class Formloginitem extends React.Component{
          className={this.props.inputcName}
          placeholder={this.props.placeholder}
          name={this.props.name}
+         onChange={this.props.handleInputChange}
          required
         />
       </div>

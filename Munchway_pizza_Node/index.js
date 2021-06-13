@@ -16,13 +16,14 @@ const session = require('express-session');
 const jsonParser = express.json()
 
 // Init the session
-app.use(session({ secret: 'keyboard matnot', cookie: { maxAge:100000000} }))
+app.use(session({ secret: 'keyboard matnot', cookie: { maxAge: 6000000 } }))
 app.use(express.static(__dirname + '/userid'));
 app.use(express.static(__dirname + '/first_name'));
 app.use(express.static(__dirname + '/last_name'));
 app.use(express.static(__dirname + '/email'));
 app.use(express.static(__dirname + '/phone'));
 app.use(express.static(__dirname + '/admin'));
+app.use(express.static(__dirname + '/picture_url'));
 
 // Access the session as req.session
 app.post('/login', jsonParser, async (req, res) => {
@@ -39,6 +40,7 @@ app.post('/login', jsonParser, async (req, res) => {
         req.session.email = result[0]['email'];
         req.session.phone = result[0]['number'];
         req.session.admin = result[0]['admin'];
+        req.session.picture_url = result[0]['picture_url'];
         return res.send({ res: true })
       }
       return res.send({ res: "Incorrect email or password" });
@@ -69,6 +71,14 @@ app.get('/login', login.login)
 app.get('/signup', signup.signup)
 app.get('/tmonot', tmonot.tmonot)
 
+app.post('/feedback', jsonParser, async (req, res) => {
+  if (!req.session || !req.session.userid) {
+    res.json({"error": "Something went wrong"});
+  }
+  itemToAdd = req.body;
+  result = await DB.query(`INSERT INTO \`feedback\` VALUES('${itemToAdd.message}', NOW(), NULL, ${req.session.userid})`);
+  res.json({ "id": result.insertId });
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`)

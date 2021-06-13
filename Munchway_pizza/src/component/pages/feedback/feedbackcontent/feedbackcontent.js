@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Feed from '../feedbackcontent/feed.js';
+import Comments from '../feedbackcontent/feed.js';
 
 class Feedbackcontent extends React.Component{
   render(){
     return(
       <div className="pb-5">
-       <Feed />
+   <Comments data={this.props.data} picture_url={this.props.picture_url}/>
       </div>
   )}
 }
