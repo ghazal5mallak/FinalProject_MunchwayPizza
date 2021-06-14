@@ -26,7 +26,9 @@ class Login extends React.Component{
        <Infoline/>
        </div>
        </div>
-      <Navbar data={this.state.data.Header}/>
+       <div className="mb-4">
+       <Navbar data={this.state.data.Header}/>
+       </div>
       <div className="pb-5">
       <Contentlogin data={this.state.data.Content}/>
       </div>

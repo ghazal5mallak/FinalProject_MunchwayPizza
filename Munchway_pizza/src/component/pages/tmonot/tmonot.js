@@ -26,10 +26,14 @@ class Tmonot extends React.Component{
        <Infoline/>
        </div>
        </div>
-      <Navbar data={this.state.data.Header}/>
-       <div className="text-success container justify-content-center pb-5 pt-5">
+       <div className="mb-4">
+       <Navbar data={this.state.data.Header}/>
+       </div>
+       <div className="text-success container justify-content-center">
        <h2>  גלריה  </h2>
+       <div className=" justify-content-center mt-0 pt-0">
        <Tmonotcontent data={this.state.data.Content}/>
+       </div>
        </div>
        <div className=" container-fluid">
        <Footer data={this.state.data.Footer}/>

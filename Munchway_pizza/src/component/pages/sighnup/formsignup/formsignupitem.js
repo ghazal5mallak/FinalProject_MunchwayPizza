@@ -1,9 +1,6 @@
 import React from "react"
 
-class Formsignupitem extends React.Component {
-  constructor(props) {
-   super(props);
-}
+class Formsignupitem extends React.Component{
   render() {
     return (
       <div className={this.props.cName}>
@@ -11,13 +8,13 @@ class Formsignupitem extends React.Component {
           <b>{this.props.labeltitle}</b>
         </label>
         <input
-          type={this.props.inputtype}
-          className={this.props.inputcName}
-          placeholder={this.props.placeholder}
-          name={this.props.name}
-          onChange={this.props.onChange}
-          value={this.props.value}
-          required
+         type={this.props.inputtype}
+         className={this.props.inputcName}
+         placeholder={this.props.placeholder}
+         name={this.props.name}
+         onChange={this.props.handleInput}
+         value={this.props.value}
+         required
         />
       </div>
     )

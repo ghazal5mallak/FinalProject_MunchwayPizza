@@ -36,8 +36,7 @@ textarea{
 border-radius: 5px;
 margin-bottom:20px;
 width: 100%;
-text-align: right;
-  background: rgba(70, 32, 32, 0.349);
+background: rgba(70, 32, 32, 0.349);
 }
 
 .form-control{
@@ -50,12 +49,9 @@ color: red;
 
 .labeltitle{
   direction: rtl;
-  float: right;
-  text-align: right;
 }
 
 .signup{
-  text-align: right;
   float: right;
 }
 
@@ -68,4 +64,9 @@ b{
   font-family: 'Bellefair', serif;
   font-size: 20px;
   letter-spacing: 2px;
+}
+
+.signupContainer{
+  width: 50%;
+  margin: auto;
 }

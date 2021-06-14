@@ -26,13 +26,13 @@ componentDidMount() {
        <Infoline/>
        </div>
        </div>
-      <Navbar  data={this.state.data.Header}/>
+       <div className="mb-4">
+       <Navbar data={this.state.data.Header}/>
+       </div>
       <div className= " text-success container pb-5 pt-5">
       <h2> תפריט </h2>
       <div className="container-fluid row justify-content-center mt-5 pb-5">
       <img className="image-tafrit"src={"../../image/43.jpeg"} />
-        {/* <img className="image-tafrit col-6"src={"../../image/bltaf.jpeg"} />
-        <img className="image-tafrit col-6"src={"../../image/btaf.jpeg"} /> */}
         </div>
         </div>
         <div className=" container-fluid">

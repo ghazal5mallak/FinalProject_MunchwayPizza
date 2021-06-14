@@ -176,7 +176,7 @@ class Ordercontent extends React.Component {
                     inputcName={item.inputcName}
                     placeholder={item.placeholder}
                     name={item.name}
-                    onChange={(event) => this.string_to_functions[item.onTextChange](event)}
+                    handleInput={this.string_to_functions[item.onTextChange]}
                     value={value}
                   />)
               })

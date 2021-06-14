@@ -1,4 +1,5 @@
 import React from 'react';
+import './feed.css';
 
 class Comments extends React.Component {
   constructor() {
@@ -63,7 +64,7 @@ class Comments extends React.Component {
                   <textarea className="form-control mr-1 shadow-none textarea" name="message" onChange={this.handleInputChange}></textarea>
                   </div>
                   <div className="mt-2 text-right">
-                  <button className="btn btn-primary btn-sm shadow-none" type="button" onClick={() => this.handleAddFeedback()}>פרסם תגובה</button>
+                  <button className="btn btn-success btn-sm shadow-none" type="button" onClick={() => this.handleAddFeedback()}>פרסם תגובה</button>
                   </div>
                 </div>
               }

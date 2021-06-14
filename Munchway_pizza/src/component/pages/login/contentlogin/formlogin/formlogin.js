@@ -29,7 +29,7 @@ class Formlogin extends React.Component{
       .then(res => res.json())
       .then(json => {
         if (json.res === true) {
-          window.location.replace("/Home");
+          window.location.replace("/");
         } else {
           this.setState({ displayMessage: json.res })
         }
@@ -51,7 +51,7 @@ class Formlogin extends React.Component{
          />)
          const err = this.state.displayMessage !== null ? (<div className="form-login-error">{this.state.displayMessage}</div>) : (<div></div>)
     return (
-      <div>
+      <div className="loginContainer justify-content-center">
         <h8> להתחברות מלא את הפרטים </h8>
         {formComponents}
         <div className="form-group form-check login-form-check">
@@ -60,7 +60,7 @@ class Formlogin extends React.Component{
            <input  className="form-check-input login-check-input" type="checkbox" name="remember" required/> 
 
         </div>
-        <div class="form-group justify-content-left">
+        <div class="form-group">
           <button onClick={() => this.login()} className="mb-5 btn btn-success justify-content-left float-left">שלח</button>
        </div>
         { err}

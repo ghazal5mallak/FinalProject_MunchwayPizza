@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Navbar from "../../part/header/navbar/navbar";
 import Infoline from "../../part/header/infoline/infoline";
 import Contentsignup from './contentsignup/contentsignup.js';
@@ -27,7 +26,9 @@ class Signup extends React.Component {
        <Infoline/>
        </div>
        </div>
-      <Navbar data={this.state.data.Header}/>
+       <div className="mb-4">
+       <Navbar data={this.state.data.Header}/>
+       </div>
       <div className=" form1 pb-5">
        <Contentsignup data={this.state.data.Content}/>
        </div>

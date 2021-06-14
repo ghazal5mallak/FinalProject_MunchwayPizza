@@ -22,12 +22,14 @@ componentDidMount() {
     return(
       <div>
        <div className="container-fluid row justify-content-right">
-       <a href="/"><img className="limg col-1.5 " src="../../image/logosha.png"/></a>
+      <a href="/"><img className="limg col-1.5 " src="../../image/logosha.png"/></a>
        <div className="limg col-10 ">
        <Infoline/>
        </div>
        </div>
+       <div className="mb-4">
        <Navbar data={this.state.data.Header}/>
+       </div>
        <div className= "text-success container">
        <div className="text-success mt-4 mb-3">
        <h1>Munchway Pizza</h1>

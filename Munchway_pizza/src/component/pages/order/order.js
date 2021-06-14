@@ -25,7 +25,9 @@ componentDidMount() {
        <Infoline/>
        </div>
        </div>
-      <Navbar data={this.state.data.Header}/>
+       <div className="mb-4">
+       <Navbar data={this.state.data.Header}/>
+       </div>
       <div className="mt-4 mb-4">
       <div className= "text-success container pb-5 pt-5">
       <h2>הזמנה דרך האתר</h2>
