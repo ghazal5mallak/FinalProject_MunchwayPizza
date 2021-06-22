@@ -79,11 +79,11 @@ class Ordercontent extends React.Component {
     } else if (this.state.currStep === 8) {
       this.state.showFormError = true;
       if (!this.state.number || this.state.number.length <= 0) {
-        this.state.formErrorMessage = "כתוב מספר";
+        this.state.formErrorMessage = <h10> כתוב מספר </h10>;
       } else if (!(/^\d+$/.test(this.state.number)) || this.state.number.length != 10) {
-        this.state.formErrorMessage = " מספר לא תקין ";
+        this.state.formErrorMessage = <h10> מספר לא תקין </h10> ;
       } else if (!this.state.location || this.state.location.length <= 0) {
-        this.state.formErrorMessage = "צרף מיקום";
+        this.state.formErrorMessage = <h10>  צרף מיקום </h10>;
       } else {
         this.state.currStep += 1;
         this.state.showFormError = false;

@@ -70,7 +70,7 @@ class Comments extends React.Component {
               }
               {!this.props.picture_url &&
                 <div className=" p-2">
-                  You need to <a className="text-'שרמןמע" href="/login">Login</a> in order to add a feedback
+                 <h10> You need to <a className="text-warning" href="/login">Login</a> in order to add a feedback</h10>
                 </div>
               }
             </div>

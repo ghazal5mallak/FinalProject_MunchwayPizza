@@ -38,7 +38,7 @@ class Formsignup extends React.Component {
   }
 
   render() {
-    const err = this.state.displayMessage !== null ? (<p>{this.state.displayMessage}</p>) : (<div></div>)
+    const err = this.state.displayMessage !== null ? (<p> <h10> {this.state.displayMessage} </h10> </p>) : (<div></div>)
     const formComponents = this.props.data.map(item =>
       <Formsignupitem
         cName={item.cName}
@@ -52,7 +52,7 @@ class Formsignup extends React.Component {
     return (
       <div className="signupContainer justify-content-center">
         {err}
-        <h8> להרשמה מלא את הפרטים </h8>
+        <h8> להרשמה מלא את הפרטים: </h8>
         {formComponents}
         <div className="form-group">
           <button onClick={() => this.handleSubmit()} className="mb-2 float-left btn btn-success">שלח</button>

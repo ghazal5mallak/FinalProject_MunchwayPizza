@@ -49,7 +49,7 @@ class Formlogin extends React.Component{
           name = {item.name}
           handleInputChange = {this.handleInputChange}
          />)
-         const err = this.state.displayMessage !== null ? (<div className="form-login-error">{this.state.displayMessage}</div>) : (<div></div>)
+         const err = this.state.displayMessage !== null ? (<div className="form-login-error"> <h10> {this.state.displayMessage} </h10> </div>) : (<div></div>)
     return (
       <div className="loginContainer justify-content-center">
         <h8> להתחברות מלא את הפרטים: </h8>

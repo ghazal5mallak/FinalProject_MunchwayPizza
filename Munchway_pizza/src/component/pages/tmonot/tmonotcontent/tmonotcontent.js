@@ -24,7 +24,7 @@ class Tmonotcontent extends React.Component{
 
         >
         {this.props.data.map((photo)=> (
-          <div className="container-fluid justify-content-center ">
+          <div className="container">
           <li className={'photo-item'}>
           <img src={photo.imgsrc} alt="" />
           <div className="overlay">
