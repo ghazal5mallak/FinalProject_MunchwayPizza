@@ -29,8 +29,11 @@ class Signup extends React.Component {
        <div className="mb-4">
        <Navbar data={this.state.data.Header}/>
        </div>
-      <div className=" form1 pb-5">
-       <Contentsignup data={this.state.data.Content}/>
+      <div className="form1 text-success container pb-5 pt-4">
+      <h2> הרשמה </h2>
+      <div className="pb-5">
+      <Contentsignup data={this.state.data.Content}/>
+        </div>
        </div>
        <div className=" container-fluid">
        <Footer data={this.state.data.Footer}/>

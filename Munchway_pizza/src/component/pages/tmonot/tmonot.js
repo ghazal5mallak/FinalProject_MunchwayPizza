@@ -29,7 +29,7 @@ class Tmonot extends React.Component{
        <div className="mb-4">
        <Navbar data={this.state.data.Header}/>
        </div>
-       <div className="text-success container justify-content-center">
+       <div className="text-success container justify-content-center pb-4 pt-4">
        <h2>  גלריה  </h2>
        <div className=" justify-content-center mt-0 pt-0">
        <Tmonotcontent data={this.state.data.Content}/>

@@ -52,12 +52,13 @@ text-decoration: underline;
 font-family: 'Secular One', sans-serif;
 text-shadow: 2px 2px 3px rgb(255, 255, 255);
 letter-spacing: 2px;
+color:#28a745;
 }
 
 h8{
-  font-size: 40px;
-  text-align: center !important;
-  color: white; 
+  font-size: 30px;
+  color: white;
+  text-align: center; 
   font-family: 'Bellefair', serif; 
 }
 

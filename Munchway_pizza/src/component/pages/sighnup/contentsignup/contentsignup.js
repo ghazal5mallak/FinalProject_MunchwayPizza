@@ -9,7 +9,7 @@ class Contentsignup extends React.Component{
 }
   render(){
     return(
-      <div className= "container justify-content-right">
+      <div className= "justify-content-right">
        <Formsignup data={this.props.data}/>
       </div>
   )}

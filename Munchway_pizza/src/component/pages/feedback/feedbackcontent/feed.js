@@ -44,33 +44,33 @@ class Comments extends React.Component {
             <div className="d-flex flex-column comment-section">
               {this.props.data.map((item, index) => {
                 return (
-                  <div className="bg-white p-2" key={index}>
+                  <div className="feedContainer p-4" key={index}>
                     <div className="d-flex flex-row user-info">
                       <img className="rounded-circle" src={item.picture_url} width="40" />
                       <div className="mr-1">
-                        <span className="d-block font-weight-bold name">{item.fname} {item.lname}</span>
-                        <span className="date text-black-50 float-right">{new Date(item.date).toISOString().split('T')[0]}</span></div>
+                        <h10 className="d-block font-weight-bold name">{item.fname} {item.lname}</h10>
+                        <h10 className="date text-black-50 float-right">{new Date(item.date).toISOString().split('T')[0]}</h10></div>
                     </div>
                     <div className="mt-2">
-                      <p className="comment-text float-right">{item.message}</p>
+                      <h10 className="comment-text mr-3">{item.message}</h10>
                     </div>
                   </div>
                 )
               })}
               {this.props.picture_url &&
-                <div className="bg-light p-2">
+                <div className=" p-2">
                   <div className="d-flex flex-row align-items-start">
                   <img className="rounded-circle" src={this.props.picture_url} width="40" />
                   <textarea className="form-control mr-1 shadow-none textarea" name="message" onChange={this.handleInputChange}></textarea>
                   </div>
-                  <div className="mt-2 text-right">
-                  <button className="btn btn-success btn-sm shadow-none" type="button" onClick={() => this.handleAddFeedback()}>פרסם תגובה</button>
+                  <div className="mt-2 text-left">
+                  <button className="btn btn-success btn-sm shadow-none " type="button" onClick={() => this.handleAddFeedback()}>פרסם תגובה</button>
                   </div>
                 </div>
               }
               {!this.props.picture_url &&
-                <div className="bg-light p-2">
-                  You need to login in order to add a feedback
+                <div className=" p-2">
+                  You need to <a className="text-'שרמןמע" href="/login">Login</a> in order to add a feedback
                 </div>
               }
             </div>

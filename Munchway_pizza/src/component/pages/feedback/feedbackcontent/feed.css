@@ -5,3 +5,12 @@
 p{
   font-size:20px;
 }
+.feedContainer{
+  background: rgba(255, 255, 255, 0.137);
+}
+
+h10{
+  font-size:20px;
+  color:white;
+  font-family: 'Secular One', sans-serif;
+}
