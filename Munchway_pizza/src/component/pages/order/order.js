@@ -29,7 +29,7 @@ componentDidMount() {
        <Navbar data={this.state.data.Header}/>
        </div>
       <div className="mt-4 mb-4">
-      <div className= "text-success container pb-4 pt-4">
+      <div className= "text-success container pb-5 pt-5">
       <h2>הזמנה דרך האתר</h2>
       <div className="pb-5">
       <Ordercontent data={this.state.data.Content}/>

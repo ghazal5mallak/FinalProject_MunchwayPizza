@@ -17,7 +17,6 @@
 
 h5{
   font-size: 20px;
-  text-align: right;
   color: #ffffff;
   font-family: 'Bellefair', serif;
   text-decoration: underline;
@@ -40,4 +39,9 @@ font-family: 'Bellefair', serif;
 .btn-success{
   font-size: 20px;
   text-align:center;
+}
+
+.btn-left-corner {
+  border-top-left-radius: 60%;
+  border-bottom-left-radius: 60%;
 }
